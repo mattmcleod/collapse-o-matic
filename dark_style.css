@@ -1,9 +1,13 @@
-.collapseomatic {
+.js .collapseomatic {
 	background-image: url(images/arrow-down-dark.png);
 	background-repeat: no-repeat;
-	padding: 0 0 10px 16px;
 	cursor: pointer;
 }
+
+.collapseomatic {
+	padding: 0 0 10px 16px;
+}
+
 .arrowright {
 	background-position: top right;
 	padding: 0 16px 10px 0;
@@ -15,7 +19,7 @@
 .colomat-hover {
 	text-decoration: underline;
 }
-.colomat-close {
+.js .colomat-close {
 	background-image: url(images/arrow-up-dark.png);
 }
 .colomat-swap {
